@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>JS Exercise 4</title>
+        <link rel="stylesheet" href="css.css">
+    </head>
+    <body>
+        <div class="headingflex"> 
+            <h1>JavaScript Exercise 4</h1>
+        </div>
+        <div class="flexdaddy">
+            <button type="button" onclick="poundTriangle(document.getElementById('x').value)">Pound Triangle</button>
+            <button type="button" onclick="parzival()">Parzival and Art3mis</button>
+            <button type="button" onclick="checkerBoard()">Checker Board</button>
+            <button type="button" onclick="poundDiamond(document.getElementById('x').value);">Pound Diamond</button>
+            <button type="button" onclick="reversePoundDiamond(document.getElementById('x').value);">Reverse Pound Diamond</button>
+        </div>
+        <div class="flexdaddy">
+            <label>X and Y values for Columns and Rows</label>
+        </div>
+        <div class="flexdaddy">
+            <input type="number" id="x" value="1">
+            <input type="number" id="y" value="1">
+        </div>
+        <div class="flexdaddy">
+            <p id="output">Please choose a function to run.</p>
+        </div>
+        <script src="js.js"></script>    
+    </body>
+</html>
