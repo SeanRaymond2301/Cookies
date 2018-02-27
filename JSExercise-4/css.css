@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: rgb(100,100,100);
+    background-color: rgb(100, 100, 100);
 }
 
 .headingflex {
@@ -36,7 +36,7 @@ label {
 }
 
 p#output {
-    background-color: rgba(0,0,0,.25);
+    background-color: rgba(0, 0, 0, .25);
     color: white;
     border-radius: 5px;
     padding: 20px;
@@ -44,7 +44,7 @@ p#output {
 
 button {
     border: none;
-    background: rgb(100,250,150);
+    background: rgb(100, 250, 150);
     border-radius: 5px;
     text-align: center;
     margin: 15px;
@@ -53,10 +53,10 @@ button {
 }
 
 input {
-    background-color: rgb(100,250,150);
+    background-color: rgb(100, 250, 150);
     border: none;
     border-radius: 5px;
     margin: 15px;
-    display: inline-block;    
+    display: inline-block;
     color: #444444;
 }

@@ -2,7 +2,7 @@ function setCookie() {
     var a = prompt("What is your username?", ""),
         b = prompt("What is your password?", "");
     
-    document.cookie = "username=" + a + ";password=" + b + ";expires=" + dateThing();
+    document.cookie = "usernamepassword=" + a + ',' + b + ";expires=" + dateThing();
     
     window.location.href = "cookies.html";
 }
